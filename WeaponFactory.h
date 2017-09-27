@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /* 
  * File:   WeaponFactory.h
  * Author: Javier <jrescobara@gmail.com>
@@ -15,10 +9,22 @@
 #ifndef WEAPONFACTORY_H
 #define WEAPONFACTORY_H
 
+/**
+ * Creation of weapons is encapsulated into the WeaponFactory class.
+ *  
+ */
 class WeaponFactory{
 public:    
+    /**
+     * Return an implementation of a weapon given its name
+     * @param name Name of the weapon to be created
+     * @return Implementation of the method (an instance of the Weapon class)
+     */
     Weapon *getWeapon(std::string name);
     static WeaponFactory* getInstance();    
+    /**
+     * Destructor
+     */
     ~WeaponFactory(){}    
 private:
     static WeaponFactory *instance;

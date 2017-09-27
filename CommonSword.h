@@ -1,13 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /* 
  * File:   CommonSword.h
  * Author: Javier <jrescobara@gmail.com>
- *
+ * 
  * Created on September 25, 2017, 3:31 PM
  */
 
@@ -17,10 +11,13 @@
 #ifndef COMMONSWORD_H
 #define COMMONSWORD_H
 
+/**
+ * Defines the behavior of a common sword (hitpoint = 50, it does not ignore armor points)
+ */
 class CommonSword : public Weapon {
 public:
 
-    CommonSword() : Weapon("CommonSword", 50.0) {
+    CommonSword() : Weapon("Common sword", 50.0) {
     }
     virtual ~CommonSword() {}; 
     virtual double hit(double armor);

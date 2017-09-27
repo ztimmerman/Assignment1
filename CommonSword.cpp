@@ -1,4 +1,9 @@
-#include "Weapon.h"
+/* 
+ * File:   CommonSword.cpp
+ * Author: Javier <jrescobara@gmail.com>
+ *  
+ */
+
 #include "CommonSword.h"
 
 
