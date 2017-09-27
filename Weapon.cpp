@@ -1,3 +1,8 @@
+/* 
+ * File:   Weapon.cpp
+ * Author: Javier <jrescobara@gmail.com>
+ *  
+ */ 
 
 #include "Weapon.h"
 
