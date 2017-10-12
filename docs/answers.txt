@@ -1,0 +1,31 @@
+a.
+Zachary@Zachary-PC MINGW64 /g/Git Projects/cen4020_asn1 (master)
+$ git commit
+[master 24f84b9] Saved status after commit to docs/status.txt
+ 1 file changed, 2 insertions(+)
+
+ b. 9 commits have been made so far, using "git rev-list --count master" as the
+ command.
+
+ c.
+
+ d.
+
+e. Two reasons to use branches are to prevent excess commits on the main branch
+as a feature is implemented, and also to develop different features on different
+branches without interfering with development of other features.
+
+f. The difference between git log and git status is that git log shows the past
+history of the commits, while git status shows the current files to be committed.
+
+g. The command used to see the commits where "Weapon.h" was one of the committed
+files would be "git log .\Weapon.h".
+
+h. The command I would use to see commits whose commit message contains the word
+"file" would be "git log --grep=file".
+
+i. In the context of bject-oriented programming, inheritance is the ability of a
+subclass to inherit behaviors from a superclass. Polymorphism is the ability for
+a language to process objects differently depending on data type. Encapsulation
+is the principle of making objects and functions separated into individual units
+so that the code is less interdependant as a whole and more modular.
