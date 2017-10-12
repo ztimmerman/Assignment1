@@ -1,3 +1,4 @@
+5
 a.
 Zachary@Zachary-PC MINGW64 /g/Git Projects/cen4020_asn1 (master)
 $ git commit
@@ -29,3 +30,8 @@ subclass to inherit behaviors from a superclass. Polymorphism is the ability for
 a language to process objects differently depending on data type. Encapsulation
 is the principle of making objects and functions separated into individual units
 so that the code is less interdependant as a whole and more modular.
+
+7. The RoleGame prototype is using encapsulation, by using inheritance to keep
+functionality as modular as possible. CommonSpear is not dependent on SimpleAxe
+for functionality, and the two cannot interfere with each other in builds, though
+both depend on their parent class, Weapon.
