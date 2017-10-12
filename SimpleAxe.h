@@ -18,6 +18,6 @@ class SimpleAxe : public Weapon {
   }
   virtual ~SimpleAxe()  {};
   virtual double hit(double armor);
-}
+};
 
 #endif  //SIMPLEAXE_H
